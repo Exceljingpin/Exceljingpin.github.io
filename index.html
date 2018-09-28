@@ -8,14 +8,9 @@
     <title>TestDataCenter</title>
 </head>
 <body>
-    <button onclick="GetData()">获取服务器数据</button>
-    <p></p>
+    <div class="container">
+        <img src="JavaWeb学习路线图.jpg"/>
+    </div>
 </body>
-<script>
-    function GetData(){
-        $.get("https://zhang-wenjiao.320.io:13726",function(data){
-            $("p").html(data);
-        },"json");
-    }
-</script>
+
 </html>
