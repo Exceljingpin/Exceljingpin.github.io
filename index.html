@@ -21,11 +21,32 @@
 </head>
 <body>
     <div class="container">
-        <h2>scratch3.0初级篇</h2>
-        <video id=vd src="http://exceljingpin.github.io/res/1.mp4" controls="controls" height="Document.body.offsetWidth">
+        <h2>提交请求</h2>
+        <!-- <video id=vd src="http://exceljingpin.github.io/res/1.mp4" controls="controls" height="Document.body.offsetWidth"> -->
+            <button id="sendMsg">请求钉钉机器人</button>
         
         </video>
     </div>
+    <script>
+        var dingUrl="https://oapi.dingtalk.com/robot/send?access_token=a4e51f577decabe0706dfd52571a663cfc8e6c690bdada0c84eb05a5e19d602f";
+        $(document).ready(function(){
+            $("#sendMsg").click(function(){
+                $.ajax({
+                    url:dingUrl,
+                    type:"post",
+                    dataType:"application/json",
+                    data:{"msgtype": "text","text": {"content":"设备掉线"}},
+                    success:function(data){
+                            alert("data");
+                    },
+                    error:function(err){
+                            alert("err");
+                    }
+                })
+
+            })
+        });
+    </script>
 
 </body>
 </html>
