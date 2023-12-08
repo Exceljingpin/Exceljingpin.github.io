@@ -1,3 +1,5 @@
 {
-    "AppName":"远程PLC试验台"
+    "AppName":"远程PLC试验台",
+    "Appwidth":800,
+    "AppHeight":400
 }
