@@ -1,4 +1,5 @@
 {
     "AppName":"远程PLC试验台",
-    "FreePort":1003
+    "FreePort":1003,
+    "CloseAllClinets":false
 }
