@@ -1,5 +1,6 @@
 {
     "AppName":"远程PLC试验台",
     "FreePort":1003,
-    "CloseAllClinets":false
+    "CloseAllClinets":false,
+    "Price":2.5
 }
