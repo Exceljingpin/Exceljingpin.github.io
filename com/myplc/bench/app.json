@@ -1,3 +1,4 @@
 {
-  appName:"com.myplc.bench"
+  appName:"com.myplc.bench",
+  deviceUrl:"http://www.myplc.online"
 }
