@@ -1,5 +1,5 @@
 {
   "com.myplc.bench":{
-    "deviceUrl":"http://www.myplc.online"
+    "settingRouter":"/com/myplc/bench"
   }
 }
