@@ -1,4 +1,5 @@
 {
   appName:"com.myplc.bench",
   deviceUrl:"http://www.myplc.online"
+  s7port:"102"
 }
